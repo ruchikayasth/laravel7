@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('registration');
-// });
+Route::get('/', function () {
+    return view('registration');
+});
 
 Route::get('pdfview',array('as'=>'pdfview','uses'=>'RegistrationControll@pdfview'));
 
